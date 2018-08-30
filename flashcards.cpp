@@ -48,7 +48,8 @@ void QuizBack(int index)
 
 int main()
 {
-    std::string front, back;
+    std::string front, back, name;
+    fin >> name;
     int amt_cards = 0;
     while (fin >> front >> back)
     {
@@ -59,6 +60,8 @@ int main()
         cards[amt_cards] = {front, back, 0};
         amt_cards++;
     }
+
+    std::cout << name << ": " << std::endl;
 
     //Quiz back
     for (int i = 0; i < amt_cards; i++)
