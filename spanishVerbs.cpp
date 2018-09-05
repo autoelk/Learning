@@ -80,10 +80,10 @@ int main()
     {
         fin >> verbs[i].name;
         fin >> verbs[i].yo >> verbs[i].nos >> verbs[i].tu >> verbs[i].el >> verbs[i].ellos;
-        std::cout << verbs[i].name << std::endl
-                  << verbs[i].yo << verbs[i].nos << std::endl
-                  << verbs[i].tu << std::endl
-                  << verbs[i].el << verbs[i].ellos << std::endl;
+        // std::cout << verbs[i].name << std::endl
+        //           << verbs[i].yo << verbs[i].nos << std::endl
+        //           << verbs[i].tu << std::endl
+        //           << verbs[i].el << verbs[i].ellos << std::endl;
     }
 
     for (int i = 0; i < amt_verbs; i++)
