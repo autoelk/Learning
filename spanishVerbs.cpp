@@ -21,35 +21,35 @@ int Quiz(int index)
     std::string answer;
     std::cout << verbs[index].name << std::endl;
 
-    std::cout << "Yo: " << std::endl;
+    std::cout << "Yo: ";
     std::cin >> answer;
     if (answer != verbs[index].yo)
     {
         amt_wrong++;
         std::cout << "Incorrect, the correct answer was: " << verbs[index].yo << std::endl;
     }
-    std::cout << "Tu: " << std::endl;
+    std::cout << "Tu: ";
     std::cin >> answer;
     if (answer != verbs[index].tu)
     {
         amt_wrong++;
         std::cout << "Incorrect, the correct answer was: " << verbs[index].tu << std::endl;
     }
-    std::cout << "El: " << std::endl;
+    std::cout << "El: ";
     std::cin >> answer;
     if (answer != verbs[index].el)
     {
         amt_wrong++;
         std::cout << "Incorrect, the correct answer was: " << verbs[index].el << std::endl;
     }
-    std::cout << "Nosotros: " << std::endl;
+    std::cout << "Nosotros: ";
     std::cin >> answer;
     if (answer != verbs[index].nos)
     {
         amt_wrong++;
         std::cout << "Incorrect, the correct answer was: " << verbs[index].nos << std::endl;
     }
-    std::cout << "Ellos: " << std::endl;
+    std::cout << "Ellos: ";
     std::cin >> answer;
     if (answer != verbs[index].ellos)
     {
