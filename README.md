@@ -1,5 +1,7 @@
-# Flashcards
-an electronic flashcard system
+# Learning
+an electronic learning system
+
+## Flashcards
 
 Input Flashcards in a file called flashcards.txt in this format
 
@@ -17,4 +19,36 @@ Na Sodium
 Mg Magnesium
 Al Aluminum
 
-then run the program and answer the questions
+## Non-ordered list
+
+Input list in a file called contains.txt in this format
+
+WaterProperties
+WaterSticks
+HighSpecificHeat
+IceFloats
+Solvent
+
+## Spanish Verbs
+
+Input verbs in a file called verbs.txt in this format
+
+3
+poner
+pongo ponemos
+pones
+pone ponen
+
+salir
+salgo salimos
+sales
+sale salen
+
+jugar
+juego jugamos
+juegas
+juega juegan
+
+## Alphabet
+
+Just run it
