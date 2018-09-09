@@ -1,5 +1,5 @@
 # Learning
-an electronic learning system
+an electronic memorization system
 
 ## Flashcards
 
