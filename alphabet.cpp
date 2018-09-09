@@ -35,7 +35,7 @@ bool quizNum()
 bool comesFirst()
 {
     int intOne = rand() % 26, intTwo = rand() % 26;
-    if (timesRight[intOne] > 2)
+    if (timesRight[intOne] > 2 || timesRight[intOne] == timesRight[intTwo])
         intOne = rand() % 26;
     else if (timesRight[intTwo] > 2)
         intTwo = rand() % 26;
